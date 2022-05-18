@@ -1,148 +1,31 @@
-# wabot-aq
+# Raganork-multi-device
+## Multi device whatsapp bot created with [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys)
+## Looking for non multi device version? Get it [here](https://github.com/souravkl11/raganork-legacy)
+<!---## Readme first before using 👇❌
+### (Due to the removal of heroku-github integration, this project is currently unable to deploy to heroku servers. As of this, existing users also couldn't update their bots.)
+Visit [Heroku status site](https://status.heroku.com) for more details
+<br>
+-->
+<div align="center">
+  
+<a href="https://raganork-qr.herokuapp.com/"><img align="center" src="https://i.imgur.com/lLgFrTQ.png" alt="Scan QR" height="112" width="300" /></a>
+<br>
+<div>
+<br>
+  
+<a href="https://raganork-api.vercel.app/api/deploy-md" target="blank"><img align="center" src="https://i.imgur.com/gtK4XLX.png" alt="Deploy bot" height="112" width="310" /></a>
+  <div>
+<br>
+<a href="https://github.com/gionova/botwa-21-04-2022/fork"><img align="center" src="https://i.imgur.com/rM1IC4u.png" alt="Fork and deploy" height="112" width="300" /></a>
+<div>
+  <br>
+<!--- <a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fsouravkl11%2FRaganork.git&envs=RAGANORK_CODE%2CLANGUAGE%2CALL_IMG%2CWORK_TYPE%2CHANDLERS%2CBOT_NAME%2CREMOVE_BG_API_KEY%2CSUDO&optionalEnvs=REMOVE_BG_API_KEY%2CSUDO&RAGANORK_CODEDesc=Raganork+code+%28QR+scan+cheythappo+kittiya+code%29.+Type+here+yours+Raganork+code.&LANGUAGEDesc=Bot+language.+English+%3D%3E+en%2C+Malayalam+%3D%3E+ml%2C+Hindi+%3D%3E+HI%2C&ALL_IMGDesc=Give+an+image+link+for+your+bot%21&WORK_TYPEDesc=Raganork+bot+Working+Type.+If+you+use+%E2%80%9Cpublic%E2%80%9D%2C+everyone+can+use+the+bot.+Else+if+you+use+%E2%80%9Cprivate%E2%80%9D%2C+only+you+can+use+your+bot&HANDLERSDesc=Prefix+for+commands.+%28.assist%2C+%21assist+%2Cassist%29&BOT_NAMEDesc=Your+bot%27s+name.+Give+your+desired+bot+name+here&REMOVE_BG_API_KEYDesc=Give+an+api+key+for+remove.bg+&SUDODesc=Give+your+sudo+here+%28These+numbers+can+control+bot%29&ALL_IMGDefault=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F0e%2Fc8%2F8c%2F0ec88ca1469125fc11b4ce76830602f4.jpg&WORK_TYPEDefault=public&HANDLERSDefault=%5E%5B%2C%40%23%21.%5D&BOT_NAMEDefault=Bot+name" target="blank"><img align="center" src="https://railway.app/button.svg" alt="Deploy to railway" height="67" width="225" /></a> 
+  
+<div>
+<br>
+<br>
 
-WHATSAPP BOT MEW AYOGI AK
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/gionova/botwa-21-04-2022)
-
-## FOR TERMUX/UBUNTU/SSH USER
-
-```bash
-apt update && apt upgrade
-apt install git -y
-apt install nodejs -y
-apt install ffmpeg -y
-apt install imagemagick -y
-git clone https://github.com/gionova/giobot5
-cd wabot-aq
-npm install
-npm update
-```
-
-## INSTALL ON TERMUX WITH UBUNTU
-
-[ INSTALLING UBUNTU ]
-
-```bash
-apt update && apt full-upgrade
-apt install wget curl git proot-distro
-proot-distro install ubuntu
-echo "proot-distro login ubuntu" > $PREFIX/bin/ubuntu
-ubuntu
-```
----------
-
-[ INSTALLING REQUIRED PACKAGES ]
-
-```bash
-ubuntu
-apt update && apt full-upgrade
-apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev dbus-x11 ffmpeg2theora ffmpegfs ffmpegthumbnailer ffmpegthumbnailer-dbg ffmpegthumbs libavcodec-dev libavcodec-extra libavcodec-extra58 libavdevice-dev libavdevice58 libavfilter-dev libavfilter-extra libavfilter-extra7 libavformat-dev libavformat58 libavifile-0.7-bin libavifile-0.7-common libavifile-0.7c2 libavresample-dev libavresample4 libavutil-dev libavutil56 libpostproc-dev libpostproc55 graphicsmagick graphicsmagick-dbg graphicsmagick-imagemagick-compat graphicsmagick-libmagick-dev-compat groff imagemagick-6.q16hdri imagemagick-common libchart-gnuplot-perl libgraphics-magick-perl libgraphicsmagick++-q16-12 libgraphicsmagick++1-dev
-```
-
----------
-
-[ INSTALLING NODEJS & WABOT-AQ ]
-
-```bash
-ubuntu
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
-apt install -y nodejs gcc g++ make
-git clone https://github.com/gionova/giobot5
-cd wabot-aq
-npm install
-npm update
-```
-
----------
-
-## FOR WINDOWS/VPS/RDP USER
-
-* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
-* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
-* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
-* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
-
-```bash
-git clone https://github.com/Nurutomo/wabot-aq
-cd wabot-aq
-npm install
-npm update
-```
-
----------
-
-## Run
-
-```bash
-node .
-```
-
----------
-
-
-
-#### GET
-
-```http
-GET /
-Accept: application/json
-```
-
-#### POST
-
-```http
-POST /
-Content-Type: application/json
-
-{
- data: {}
-}
-```
-
-### `--big-qr`
-
-If small qr unicode doesn't support
-
-### `--restrict`
-
-Enables restricted plugins (which can lead your number to be **banned** if used too often)
-
-* Group Administration `add, kick`
-
-### `--img`
-
-Enable image inspector through terminal
-
-### `--autoread`
-
-If enabled, all incoming messages will be marked as read
-
-### `--nyimak`
-
-No bot, just print received messages and add users to database
-
-### `--test`
-
-**Development** Testing Mode
-
-### `--trace`
-
-```js
-conn.logger.level = 'trace'
-```
-
-### `--debug`
-
-```js
-conn.logger.level = 'debug'
-```
-
----------
-
-
-Created bot by: giie
-# giobotv6
-# giobotv6
-# giobotv6
-# giobot
-# giobot
+<div>
+  
+<a href="https://bit.ly/Raganork"><img src="/language/web.png" alt="Visit Website" height="112" width="300" border="0"></a>
+-->
